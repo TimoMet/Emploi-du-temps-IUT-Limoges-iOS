@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		899011C9E87E36A025DC5C0C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899010324DFC36C52DBB4FC4 /* ContentView.swift */; };
+		8990140697C044165E03F44E /* EdtIutInfoLimogesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89901B56A5FC27E3E5090B99 /* EdtIutInfoLimogesUITests.swift */; };
+		899014F2FD6C527E39A57006 /* EdtIutInfoLimogesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89901BCA2096286B865F5835 /* EdtIutInfoLimogesApp.swift */; };
+		89901933306CF28539F9C07C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89901726D1A80CDD3FFFB39E /* Assets.xcassets */; };
+		89901AA4098AAA9FE03F6068 /* EdtIutInfoLimogesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899019E5D9A2A888CE0BDECB /* EdtIutInfoLimogesUITestsLaunchTests.swift */; };
+		89901CDC23318436FE640292 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89901276AEA01063AB27C9B0 /* Preview Assets.xcassets */; };
+		89901D3185B5A78DAF32BE71 /* EdtIutInfoLimogesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89901B3DC2C3F79CFB06B337 /* EdtIutInfoLimogesTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89901861FD89EE06EE24ECE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 899011642CC30C32F0B38265 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89901858AF2B4E1CFD7E42AF;
+			remoteInfo = EdtIutInfoLimoges;
+		};
+		89901AA2ED7E34B16F6F5920 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 899011642CC30C32F0B38265 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89901858AF2B4E1CFD7E42AF;
+			remoteInfo = EdtIutInfoLimoges;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		899010324DFC36C52DBB4FC4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		89901276AEA01063AB27C9B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8990155B90C11849AD62A44C /* EdtIutInfoLimogesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EdtIutInfoLimogesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89901726D1A80CDD3FFFB39E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8990193E83857D7913853699 /* EdtIutInfoLimoges.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EdtIutInfoLimoges.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		899019E5D9A2A888CE0BDECB /* EdtIutInfoLimogesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdtIutInfoLimogesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		89901B3DC2C3F79CFB06B337 /* EdtIutInfoLimogesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdtIutInfoLimogesTests.swift; sourceTree = "<group>"; };
+		89901B56A5FC27E3E5090B99 /* EdtIutInfoLimogesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdtIutInfoLimogesUITests.swift; sourceTree = "<group>"; };
+		89901BCA2096286B865F5835 /* EdtIutInfoLimogesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdtIutInfoLimogesApp.swift; sourceTree = "<group>"; };
+		89901E64FB6D262356818F2B /* EdtIutInfoLimogesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EdtIutInfoLimogesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8990132D84332F04CC3527F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		899013E940FEAE3BD5CD1A6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8990198ED0B4093F5A00448D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		899017B241F5F7DB94A5A167 = {
+			isa = PBXGroup;
+			children = (
+				89901CEAF0DB46D26A65B3C2 /* Products */,
+				89901A1F687817ECED25FC81 /* EdtIutInfoLimoges */,
+				89901EA8CA80A9992E812F21 /* EdtIutInfoLimogesTests */,
+				89901ED491BA3C15AF52DB3E /* EdtIutInfoLimogesUITests */,
+			);
+			sourceTree = "<group>";
+		};
+		89901A1F687817ECED25FC81 /* EdtIutInfoLimoges */ = {
+			isa = PBXGroup;
+			children = (
+				89901726D1A80CDD3FFFB39E /* Assets.xcassets */,
+				89901C815503689CCBD8BB64 /* Preview Content */,
+				89901BCA2096286B865F5835 /* EdtIutInfoLimogesApp.swift */,
+				899010324DFC36C52DBB4FC4 /* ContentView.swift */,
+			);
+			path = EdtIutInfoLimoges;
+			sourceTree = "<group>";
+		};
+		89901C815503689CCBD8BB64 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				89901276AEA01063AB27C9B0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		89901CEAF0DB46D26A65B3C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8990193E83857D7913853699 /* EdtIutInfoLimoges.app */,
+				89901E64FB6D262356818F2B /* EdtIutInfoLimogesTests.xctest */,
+				8990155B90C11849AD62A44C /* EdtIutInfoLimogesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89901EA8CA80A9992E812F21 /* EdtIutInfoLimogesTests */ = {
+			isa = PBXGroup;
+			children = (
+				89901B3DC2C3F79CFB06B337 /* EdtIutInfoLimogesTests.swift */,
+			);
+			path = EdtIutInfoLimogesTests;
+			sourceTree = "<group>";
+		};
+		89901ED491BA3C15AF52DB3E /* EdtIutInfoLimogesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				89901B56A5FC27E3E5090B99 /* EdtIutInfoLimogesUITests.swift */,
+				899019E5D9A2A888CE0BDECB /* EdtIutInfoLimogesUITestsLaunchTests.swift */,
+			);
+			path = EdtIutInfoLimogesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8990114F429FCAE2D642B90B /* EdtIutInfoLimogesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89901EBAC4613C4AC6A916E0 /* Build configuration list for PBXNativeTarget "EdtIutInfoLimogesTests" */;
+			buildPhases = (
+				8990197DDCDD98F00D20D959 /* Sources */,
+				899013E940FEAE3BD5CD1A6D /* Frameworks */,
+				899013C376AA6E0118A6A726 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8990132FEAC3D81F6091A500 /* PBXTargetDependency */,
+			);
+			name = EdtIutInfoLimogesTests;
+			productName = EdtIutInfoLimogesTests;
+			productReference = 89901E64FB6D262356818F2B /* EdtIutInfoLimogesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		899015FA463B011BFEA8D812 /* EdtIutInfoLimogesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 899013D4D1C3D9F414BF0CCD /* Build configuration list for PBXNativeTarget "EdtIutInfoLimogesUITests" */;
+			buildPhases = (
+				8990187AE2BA42ED68694AEC /* Sources */,
+				8990132D84332F04CC3527F2 /* Frameworks */,
+				89901AE9B26A5502BD8548BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				899014ED35179FF076E9A051 /* PBXTargetDependency */,
+			);
+			name = EdtIutInfoLimogesUITests;
+			productName = EdtIutInfoLimogesUITests;
+			productReference = 8990155B90C11849AD62A44C /* EdtIutInfoLimogesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		89901858AF2B4E1CFD7E42AF /* EdtIutInfoLimoges */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 899016DF74D05463F8EFAA09 /* Build configuration list for PBXNativeTarget "EdtIutInfoLimoges" */;
+			buildPhases = (
+				89901DE8B21F2042E2475EEB /* Sources */,
+				8990198ED0B4093F5A00448D /* Frameworks */,
+				8990159961A8D0415EFB3948 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EdtIutInfoLimoges;
+			productName = EdtIutInfoLimoges;
+			productReference = 8990193E83857D7913853699 /* EdtIutInfoLimoges.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		899011642CC30C32F0B38265 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 89901CE7978E822E4FDBCAF9 /* Build configuration list for PBXProject "EdtIutInfoLimoges" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 899017B241F5F7DB94A5A167;
+			productRefGroup = 89901CEAF0DB46D26A65B3C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89901858AF2B4E1CFD7E42AF /* EdtIutInfoLimoges */,
+				8990114F429FCAE2D642B90B /* EdtIutInfoLimogesTests */,
+				899015FA463B011BFEA8D812 /* EdtIutInfoLimogesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		899013C376AA6E0118A6A726 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8990159961A8D0415EFB3948 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89901933306CF28539F9C07C /* Assets.xcassets in Resources */,
+				89901CDC23318436FE640292 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89901AE9B26A5502BD8548BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8990187AE2BA42ED68694AEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8990140697C044165E03F44E /* EdtIutInfoLimogesUITests.swift in Sources */,
+				89901AA4098AAA9FE03F6068 /* EdtIutInfoLimogesUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8990197DDCDD98F00D20D959 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89901D3185B5A78DAF32BE71 /* EdtIutInfoLimogesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89901DE8B21F2042E2475EEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				899014F2FD6C527E39A57006 /* EdtIutInfoLimogesApp.swift in Sources */,
+				899011C9E87E36A025DC5C0C /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8990132FEAC3D81F6091A500 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89901858AF2B4E1CFD7E42AF /* EdtIutInfoLimoges */;
+			targetProxy = 89901AA2ED7E34B16F6F5920 /* PBXContainerItemProxy */;
+		};
+		899014ED35179FF076E9A051 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89901858AF2B4E1CFD7E42AF /* EdtIutInfoLimoges */;
+			targetProxy = 89901861FD89EE06EE24ECE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8990143A85146EE535AC6610 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EdtIutInfoLimoges.app/EdtIutInfoLimoges";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TimoSolo.EdtIutInfoLimogesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		89901AB8DD4BD0B6BBFA8D53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		89901BA83EE64D7E0B1EAD8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EdtIutInfoLimoges.app/EdtIutInfoLimoges";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TimoSolo.EdtIutInfoLimogesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		89901CD340CB7CFD7A6AC2FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EdtIutInfoLimoges/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TimoSolo.EdtIutInfoLimoges;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89901DB5A20E4EDD241F7F12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89901E69A7479F97BD80BA5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EdtIutInfoLimoges/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TimoSolo.EdtIutInfoLimoges;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		89901E99E8FC24B0443865B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TimoSolo.EdtIutInfoLimogesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EdtIutInfoLimoges;
+			};
+			name = Debug;
+		};
+		89901FB7481410A8E0212499 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TimoSolo.EdtIutInfoLimogesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EdtIutInfoLimoges;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		899013D4D1C3D9F414BF0CCD /* Build configuration list for PBXNativeTarget "EdtIutInfoLimogesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89901E99E8FC24B0443865B7 /* Debug */,
+				89901FB7481410A8E0212499 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		899016DF74D05463F8EFAA09 /* Build configuration list for PBXNativeTarget "EdtIutInfoLimoges" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89901CD340CB7CFD7A6AC2FA /* Debug */,
+				89901E69A7479F97BD80BA5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		89901CE7978E822E4FDBCAF9 /* Build configuration list for PBXProject "EdtIutInfoLimoges" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89901AB8DD4BD0B6BBFA8D53 /* Debug */,
+				89901DB5A20E4EDD241F7F12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89901EBAC4613C4AC6A916E0 /* Build configuration list for PBXNativeTarget "EdtIutInfoLimogesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89901BA83EE64D7E0B1EAD8C /* Debug */,
+				8990143A85146EE535AC6610 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 899011642CC30C32F0B38265 /* Project object */;
+}
